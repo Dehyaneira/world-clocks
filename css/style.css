@@ -57,6 +57,9 @@ select {
   vertical-align: middle;
   line-height: 48px;
 }
+a{
+    color: rgb(158, 108, 47);
+}
 
 footer {
   text-align: center;
