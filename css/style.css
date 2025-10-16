@@ -1,6 +1,6 @@
-body{
-    background-color: bisque;
- font-family: sans-serif;
+body {
+  background: linear-gradient(to top, #e6e9f0 0%, );
+  font-family: sans-serif;
 }
 
 h1 {
@@ -14,21 +14,54 @@ h2 {
   font-size: 28px;
 }
 
-select {
+/*select {
   display: block;
   width: 100%;
   font-size: 18px;
   border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(255, 235, 205, 0.719);
+}*/
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  padding: 12px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #333;
+  backdrop-filter: blur(8px);
+  outline: none;
+  transition: all 0.3s ease;
+  appearance: none;
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: #007bff;
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+option {
+  background-color: #f7f0d4;
+  color: #333;
   padding: 10px;
 }
 
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
-  padding: 30px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: linear-gradient(
+    114.2deg,
+    rgb(121, 194, 243) 22.6%,
+    rgb(255, 180, 239) 67.7%
+  );
+  box-shadow: rgba(100, 100, 111, 0.562) 0px 7px 29px 0px;
   border-radius: 10px;
+  padding: 30px 30px 30px 30px;
 }
 
 .city {
@@ -57,12 +90,24 @@ select {
   vertical-align: middle;
   line-height: 48px;
 }
-a{
-    color: rgb(158, 108, 47);
+a {
+  color: rgb(85, 83, 212);
 }
-
-footer {
+.back {
   text-align: center;
+  margin-bottom: 30px;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  background: linear-gradient(to top, #cacdd3 0%, #96bef1 100%);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #333;
+  padding: 8px;
+  cursor: pointer;
+
+}
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
 }
