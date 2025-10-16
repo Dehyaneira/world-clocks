@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to top, #e6e9f0 0%, );
+  background: linear-gradient(to top, #e6e9f0 0%);
   font-family: sans-serif;
 }
 
@@ -41,12 +41,12 @@ select {
 
 select:focus {
   border-color: #007bff;
-  background-color: #fff;
+  background-color: #ffffff67;
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
 }
 
 option {
-  background-color: #f7f0d4;
+  background-color: #f7f0d479;
   color: #333;
   padding: 10px;
 }
@@ -103,7 +103,6 @@ a {
   color: #333;
   padding: 8px;
   cursor: pointer;
-
 }
 footer {
   margin-top: 30px;
