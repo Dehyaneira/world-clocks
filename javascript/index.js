@@ -17,7 +17,7 @@ function updateTime() {
   if (ecuadorElement) {
     let ecuadorDateElement = ecuadorElement.querySelector(".date");
     let ecuadorTimeElement = ecuadorElement.querySelector(".time");
-    let ecuadorTime = moment().tz("America/Ecuador");
+    let ecuadorTime = moment().tz("America/Guayaquil");
 
     ecuadorDateElement.innerHTML = ecuadorTime.format("MMMM	Do YYYY");
     ecuadorTimeElement.innerHTML = ecuadorTime.format(
